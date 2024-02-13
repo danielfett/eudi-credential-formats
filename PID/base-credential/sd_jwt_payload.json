@@ -1,0 +1,37 @@
+{
+  "_sd": [
+    "3JPcxisatnIAxGDwQRCJMp2Q8z9j2M6exwEg4bFuK1o",
+    "9NuYFg0yYj76uKLg1q3KlW2NBSDgKGlqxZx5ZKhJnVY",
+    "I00fcFUoDXCucp5yy2ujqPssDVGaWNiUliNz_awD0gc",
+    "QphYCPXfMZ52m0iYZ27rUPgyonU2fFpLm8m9uBbTuAs",
+    "ZCutYqQXZCqpnl-llIndv-FPKrxCS7ZdIt5CjlEhVHA",
+    "bvHFN6c3kWVG99a_4vjwWRhRLBn0PMBR9NNMTwdPxDk",
+    "cUiO1_JkWfsDBpH81QerPmv3fNWePXhj0KxfotYeX0E",
+    "uOj4BItiTgUMNidfNhG9cgOBOFkCmFb_ucYK9ke2P7k",
+    "xhqMTg9vB0cIvoQySAyZfX_LqFfeUJWKMcs_uJMuqO4"
+  ],
+  "iss": "https://example.com/issuer",
+  "iat": 1683000000,
+  "exp": 1883000000,
+  "vct": "https://eudi.eu/credential/pid/1.0",
+  "vct#integrity": "sha256-jo8433ot48utul8ura33",
+  "age_equal_or_over": {
+    "_sd": [
+      "24pewxrKcfCqCU4z3DuWMcTF4v1oZDAIJoiXr38C8DY",
+      "GetZC8JnjOwoWAyVeoxj-0Ys7JrODodgZtsxT6ij-LU",
+      "JvhyG4G5ZYwRJPEQZAAMG5dzhuAhFqlZ-wfPJlxuDOQ",
+      "PDnBbvPq8F2Es4L7GQBZit35x9QKizB7DVxLbHPLWCw",
+      "Z8Joh1t0ddMySHZUhJqXg2JMwNbYVeRVBElPu3Yrfcs",
+      "u031HlwwmH8SPd6tW_4vaTVVtfMg_NvRXE4sxG9nVHw"
+    ]
+  },
+  "cnf": {
+    "jwk": {
+      "kty": "EC",
+      "crv": "P-256",
+      "x": "TCAER19Zvu3OHF4j4W4vfSVoHIP1ILilDls7vCeGemc",
+      "y": "ZxjiWWbZMQGHVWKVQ4hbSIirsVfuecCE6t4jT9F2HZQ"
+    }
+  },
+  "_sd_alg": "sha-256"
+}

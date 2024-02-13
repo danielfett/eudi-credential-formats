@@ -1,0 +1,42 @@
+{
+  "vct": "https://eudi.eu/credential/pid/1.0",
+  "vct#integrity": "sha256-jo8433ot48utul8ura33",
+  "given_name": "Max",
+  "family_name": "Mustermann",
+  "birthdate": "1980-05-23",
+  "birth_given_name": "Jakob",
+  "birth_family_name": "Wechselname",
+  "place_of_birth": {
+    "locality": "Leipzig",
+    "region": "Saxony",
+    "country": "DD"
+  },
+  "address": {
+    "street_address": "123 Via Appia",
+    "locality": "Rome",
+    "region": "Lazio",
+    "postal_code": "00100",
+    "country": "IT"
+  },
+  "nationalities": [
+    "DE",
+    "IT"
+  ],
+  "gender": "male",
+  "age_equal_or_over": {
+    "12": true,
+    "14": true,
+    "16": true,
+    "18": true,
+    "21": true,
+    "65": false
+  },
+  "cnf": {
+    "jwk": {
+      "kty": "EC",
+      "crv": "P-256",
+      "x": "52aDI_ur05n1f_p3jiYGUU82oKZr3m4LsAErM536crQ",
+      "y": "ckhZ-KQ5aXNL91R8Eufg1aOf8Z5pZJnIvuCzNGfdnzo"
+    }
+  }
+}

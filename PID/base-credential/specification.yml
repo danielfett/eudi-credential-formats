@@ -1,0 +1,45 @@
+user_claims:
+  vct: https://eudi.eu/credential/pid/1.0
+  vct#integrity: sha256-jo8433ot48utul8ura33
+
+  !sd given_name: Max
+  !sd family_name: Mustermann
+  !sd birthdate: '1980-05-23'
+  !sd birth_given_name: Jakob
+  !sd birth_family_name: Wechselname
+  !sd place_of_birth:
+    !sd locality: Leipzig
+    !sd region: Saxony
+    !sd country: DD
+  !sd address:
+    !sd street_address: 123 Via Appia
+    !sd locality: Rome
+    !sd region: Lazio
+    !sd postal_code: '00100'
+    !sd country: IT
+  !sd nationalities:
+  - !sd DE
+  - !sd IT 
+  !sd gender: male
+  age_equal_or_over:
+    !sd '12': true
+    !sd '14': true
+    !sd '16': true
+    !sd '18': true
+    !sd '21': true
+    !sd '65': false
+  cnf:
+    jwk:
+      kty: EC
+      crv: P-256
+      x: 52aDI_ur05n1f_p3jiYGUU82oKZr3m4LsAErM536crQ
+      "y": ckhZ-KQ5aXNL91R8Eufg1aOf8Z5pZJnIvuCzNGfdnzo
+
+
+holder_disclosed_claims:
+  given_name: true
+  family_name: true
+  age_equal_or_over:
+    '18': true
+
+key_binding: True
