@@ -5,5 +5,6 @@ SD-JWT VC DM.
 
 Contents:
 
- - PID Credential (see PID/)
+ - [Base PID Credential for all EU member states](PID-base/README.md)
+ - [PID Credential for Germany](PID-de/README.md)
 
