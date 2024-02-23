@@ -1,8 +1,16 @@
 # PID Credential (Germany)
 
-The German PID credential types would inherit data fields from the [base
-type](../PID-base/). However, only the data fields shown in the following
-example are available for the eID-based German PIDs:
+The German PID credential type inherits data fields from the [base
+type](../PID-base/). A single German credential type is defined independent of
+whether the data comes from an ID card, a residence permit, or an eID card for EU
+citizens. A data field in the credential indicates the source of the PID.
+
+Note: This is one of two design options, the other being
+[PID-de-option2](../PID-de-option2/). See the notes there for a comparison of
+the two options.
+
+The data fields shown in the following example are available for the eID-based
+German PIDs:
 
 ```yaml
 {
@@ -18,7 +26,9 @@ example are available for the eID-based German PIDs:
 
     ## Additional data
 
-    "address": {                # ID card only
+    "source_document_type": "id_card",  # can also be "residence_permit" or "eu_citizen_eid_card"
+
+    "address": {                        # available for ID card and eID card for EU citizens only
         "street_address": "Heidestraße 17",
         "locality": "Köln",
         "postal_code": "51147",
@@ -29,7 +39,7 @@ example are available for the eID-based German PIDs:
         "DE"
     ],
 
-    "gender": "female",         # residence permit only
+    "gender": "female",                 # available for residence permit only
     "birth_family_name": "Gabler",
 
     "place_of_birth": {
